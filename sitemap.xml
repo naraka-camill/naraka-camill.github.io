@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://naraka-camill.github.io/2024/01/14/hello-world/</loc>
+    <loc>https://naraka-camill.github.io/2024/01/14/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
     
     <lastmod>2024-01-14</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://naraka-camill.github.io/2024/01/14/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://naraka-camill.github.io/2024/01/14/hello-world/</loc>
     
     <lastmod>2024-01-14</lastmod>
     
@@ -27,6 +27,20 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://naraka-camill.github.io/tags/Hexo/</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://naraka-camill.github.io/tags/Fluid/</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
