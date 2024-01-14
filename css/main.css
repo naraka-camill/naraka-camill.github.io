@@ -470,14 +470,18 @@ sup > a::before,
   text-shadow: 0 0 10px var(--c), 0 0 20px var(--c), 0 0 40px var(--c), 0 0 80px var(--c), 0 0 160px var(--c);
   animation: animate 5s linear infinite;
 }
+.navbar-brand {
+  display: flex; /* 使用 flex 布局 */
+  align-items: center; /* 垂直居中 */
+}
+.navbar-title,
+.weather-plugin {
+  display: inline-block; /* 设置为行内块级元素 */
+  margin-right: 10px; /* 可以根据需要调整间距 */
+}
 @media (max-width: 992px) {
   .weather-plugin {
-    display: none;
-  }
-}
-@media (min-width: 992px) {
-  .weather-plugin {
-    display: block;
+    display: none; /* 在屏幕宽度小于992px时隐藏 */
   }
 }
 @-moz-keyframes animate {
