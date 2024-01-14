@@ -3,11 +3,11 @@
   <title>Camill</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://naraka-camill.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://naraka-camill.github.io/"/>
   <updated>2024-01-14T02:35:03.211Z</updated>
-  <id>http://example.com/</id>
+  <id>https://naraka-camill.github.io/</id>
   
   <author>
     <name>Camill</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo框架快速上手</title>
-    <link href="http://example.com/2024/01/14/hello-world/"/>
-    <id>http://example.com/2024/01/14/hello-world/</id>
+    <link href="https://naraka-camill.github.io/2024/01/14/hello-world/"/>
+    <id>https://naraka-camill.github.io/2024/01/14/hello-world/</id>
     <published>2024-01-14T02:41:01.453Z</published>
     <updated>2024-01-14T02:35:03.211Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>新建测试文章</title>
-    <link href="http://example.com/2024/01/14/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2024/01/14/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</id>
+    <link href="https://naraka-camill.github.io/2024/01/14/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <id>https://naraka-camill.github.io/2024/01/14/%E6%96%B0%E5%BB%BA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</id>
     <published>2024-01-14T02:31:24.000Z</published>
     <updated>2024-01-14T02:34:04.932Z</updated>
     
