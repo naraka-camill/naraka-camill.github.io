@@ -63,3 +63,10 @@ svg {
 	cursor: url(/img/Hand2.cur),auto;
 	background-color: @theme_background;
 }
+
+/*文字*/
+
+code:hover{
+	cursor: url(/img/IBeam.cur), auto;
+	background-color: @theme_background;
+}
