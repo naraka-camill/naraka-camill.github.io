@@ -38,20 +38,6 @@
 
   
   <url>
-    <loc>https://naraka-camill.github.io/tags/Hexo/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://naraka-camill.github.io/tags/Fluid/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://naraka-camill.github.io/tags/Linux/</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -60,6 +46,20 @@
   
   <url>
     <loc>https://naraka-camill.github.io/tags/bash/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://naraka-camill.github.io/tags/Hexo/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://naraka-camill.github.io/tags/Fluid/</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

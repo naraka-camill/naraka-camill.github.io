@@ -42,13 +42,12 @@
   }
   
   .hljs {
-    color: #ffffff;
     background-color: #00000000;
   }
   
   /* 代码块颜色 */
   figure.highlight tr {
-    background-color: #333333;
+    background-color: #f9fffa;
   }
   
   [data-user-color-scheme='dark'] .markdown-body table tr {
