@@ -20,6 +20,17 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux 常用命令</title>
+    <url>/note/linux-note/</url>
+    <content><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p>
+<p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库 </p>
+]]></content>
+      <tags>
+        <tag>Linux</tag>
+        <tag>bash</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo框架快速上手</title>
     <url>/getting-started/hello-hexo/</url>
     <content><![CDATA[<h1 id="Hexo框架使用说明"><a href="#Hexo框架使用说明" class="headerlink" title="Hexo框架使用说明"></a>Hexo框架使用说明</h1><h2 id="使用淘宝镜像源加速-NPM"><a href="#使用淘宝镜像源加速-NPM" class="headerlink" title="使用淘宝镜像源加速 NPM"></a>使用淘宝镜像源加速 NPM</h2><p><code>npm config set registry https://registry.npmmirror.com</code></p>
@@ -52,17 +63,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Fluid</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 常用命令</title>
-    <url>/note/linux-note/</url>
-    <content><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p>
-<p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库 </p>
-]]></content>
-      <tags>
-        <tag>Linux</tag>
-        <tag>bash</tag>
       </tags>
   </entry>
 </search>
