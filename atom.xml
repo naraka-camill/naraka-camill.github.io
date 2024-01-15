@@ -6,7 +6,7 @@
   <link href="https://naraka-camill.github.io/atom.xml" rel="self"/>
   
   <link href="https://naraka-camill.github.io/"/>
-  <updated>2024-01-14T15:23:48.311Z</updated>
+  <updated>2024-01-15T15:19:01.127Z</updated>
   <id>https://naraka-camill.github.io/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <title>Linux 常用命令</title>
     <link href="https://naraka-camill.github.io/note/linux-note/"/>
     <id>https://naraka-camill.github.io/note/linux-note/</id>
-    <published>2024-01-14T15:16:50.121Z</published>
-    <updated>2024-01-14T15:23:48.311Z</updated>
+    <published>2024-01-14T15:18:00.000Z</published>
+    <updated>2024-01-15T15:19:01.127Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p><p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p><p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库 </p>]]></content>
     
     
     <summary type="html">Linux命令，如：ldd</summary>

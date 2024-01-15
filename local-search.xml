@@ -8,7 +8,7 @@
     <link href="/note/linux-note/"/>
     <url>/note/linux-note/</url>
     
-    <content type="html"><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p><p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p><p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库 </p>]]></content>
     
     
     
