@@ -59,7 +59,7 @@ figure.highlight::after {
 }
 /* 代码块颜色 */
 figure.highlight tr {
-  background-color: #f9fffa;
+  background-color: #ff8f36;
 }
 [data-user-color-scheme='dark'] .markdown-body table tr {
   background-color: #25272d;
@@ -73,3 +73,12 @@ figure.highlight > table {
 [data-user-color-scheme='dark'] .gutter {
   background-color: #25272d;
 }
+/*
+code {
+    color: rgb(56 160 110);
+}
+
+.markdown-body code {
+    color: rgb(56 160 110);
+}
+*/

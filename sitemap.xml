@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://naraka-camill.github.io/note/linux-note/</loc>
+    <loc>https://naraka-camill.github.io/getting-started/change-theme/</loc>
     
-    <lastmod>2024-01-14</lastmod>
+    <lastmod>2024-01-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://naraka-camill.github.io/getting-started/change-theme/</loc>
+    <loc>https://naraka-camill.github.io/note/linux-note/</loc>
     
     <lastmod>2024-01-14</lastmod>
     
@@ -31,7 +31,7 @@
 
   <url>
     <loc>https://naraka-camill.github.io/</loc>
-    <lastmod>2024-01-14</lastmod>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,28 +39,28 @@
   
   <url>
     <loc>https://naraka-camill.github.io/tags/Linux/</loc>
-    <lastmod>2024-01-14</lastmod>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://naraka-camill.github.io/tags/bash/</loc>
-    <lastmod>2024-01-14</lastmod>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://naraka-camill.github.io/tags/Hexo/</loc>
-    <lastmod>2024-01-14</lastmod>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://naraka-camill.github.io/tags/Fluid/</loc>
-    <lastmod>2024-01-14</lastmod>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
