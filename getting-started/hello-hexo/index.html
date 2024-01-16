@@ -26,8 +26,8 @@
 <meta property="og:description" content="快速搭建一个基于Hexo和Fluid的主题博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://naraka-camill.github.io/img/hexo.png">
-<meta property="article:published_time" content="2024-01-14T07:50:31.690Z">
-<meta property="article:modified_time" content="2024-01-14T15:10:44.614Z">
+<meta property="article:published_time" content="2024-01-16T13:23:20.118Z">
+<meta property="article:modified_time" content="2024-01-16T13:19:46.651Z">
 <meta property="article:author" content="Camill">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="Fluid">
@@ -84,7 +84,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"naraka-camill.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"💕","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"naraka-camill.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"❣","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -370,8 +370,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-14 15:50" pubdate>
-          2024年1月14日 下午
+        <time datetime="2024-01-16 21:23" pubdate>
+          2024年1月16日 晚上
         </time>
       </span>
     
@@ -382,7 +382,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          197 字
+          268 字
         
       </span>
     
@@ -393,7 +393,7 @@
         
         
         
-          4 分钟
+          5 分钟
         
       </span>
     
@@ -435,7 +435,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-01-14T23:10:44+08:00
+                    本文最后更新于 2024-01-16T21:19:46+08:00
                   
                   
 
@@ -456,6 +456,20 @@
 <p>安装 hexo-deployer-git：</p>
 <p><code>npm install hexo-deployer-git --save</code></p>
 <p><code>hexo d</code> 部署</p>
+<h2 id="需要安装的一些依赖"><a href="#需要安装的一些依赖" class="headerlink" title="需要安装的一些依赖"></a>需要安装的一些依赖</h2><h3 id="为文章添加目录-现弃用，有bug"><a href="#为文章添加目录-现弃用，有bug" class="headerlink" title="为文章添加目录(现弃用，有bug)"></a>为文章添加目录(现弃用，有bug)</h3><p>参考<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2065866">为文章添加目录</a></p>
+<ol>
+<li>安装插件</li>
+</ol>
+<p><code>npm install hexo-toc --save</code></p>
+<ol start="2">
+<li>配置博客根目录下的_config.yml文件</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">maxdepth:</span> <span class="hljs-number">3</span><br></code></pre></td></tr></table></figure>
+<ol start="4">
+<li>添加目录</li>
+</ol>
+<p>在需要展示目录的地方添加：</p>
+<p><code>&lt;!-- toc --&gt;</code></p>
 <h2 id="一键开发"><a href="#一键开发" class="headerlink" title="一键开发"></a>一键开发</h2><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></p>
 <h2 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h2><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
 <h2 id="以下是建站之后，Hexo的默认提供的快速使用"><a href="#以下是建站之后，Hexo的默认提供的快速使用" class="headerlink" title="以下是建站之后，Hexo的默认提供的快速使用"></a>以下是建站之后，Hexo的默认提供的快速使用</h2><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -510,13 +524,13 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年1月14日</div>
+          <div>2024年1月16日</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年1月14日</div>
+          <div>2024年1月16日</div>
         </div>
       
       
@@ -547,18 +561,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/note/linux-note/" title="Linux 常用命令">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Linux 常用命令</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/getting-started/change-theme/" title="魔改实现记录">
-                        <span class="hidden-mobile">魔改实现记录</span>
+                      <a href="/note/linux-note/" title="Linux 常用命令">
+                        <span class="hidden-mobile">Linux 常用命令</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

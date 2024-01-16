@@ -33,6 +33,20 @@
 <p>安装 hexo-deployer-git：</p>
 <p><code>npm install hexo-deployer-git --save</code></p>
 <p><code>hexo d</code> 部署</p>
+<h2 id="需要安装的一些依赖"><a href="#需要安装的一些依赖" class="headerlink" title="需要安装的一些依赖"></a>需要安装的一些依赖</h2><h3 id="为文章添加目录-现弃用，有bug"><a href="#为文章添加目录-现弃用，有bug" class="headerlink" title="为文章添加目录(现弃用，有bug)"></a>为文章添加目录(现弃用，有bug)</h3><p>参考<a href="https://cloud.tencent.com/developer/article/2065866">为文章添加目录</a></p>
+<ol>
+<li>安装插件</li>
+</ol>
+<p><code>npm install hexo-toc --save</code></p>
+<ol start="2">
+<li>配置博客根目录下的_config.yml文件</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">maxdepth:</span> <span class="hljs-number">3</span><br></code></pre></td></tr></table></figure>
+<ol start="4">
+<li>添加目录</li>
+</ol>
+<p>在需要展示目录的地方添加：</p>
+<p><code>&lt;!-- toc --&gt;</code></p>
 <h2 id="一键开发"><a href="#一键开发" class="headerlink" title="一键开发"></a>一键开发</h2><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></p>
 <h2 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h2><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
 <h2 id="以下是建站之后，Hexo的默认提供的快速使用"><a href="#以下是建站之后，Hexo的默认提供的快速使用" class="headerlink" title="以下是建站之后，Hexo的默认提供的快速使用"></a>以下是建站之后，Hexo的默认提供的快速使用</h2><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -57,7 +71,74 @@
   <entry>
     <title>Linux 常用命令</title>
     <url>/note/linux-note/</url>
-    <content><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><h2 id="ldd"><a href="#ldd" class="headerlink" title="ldd"></a>ldd</h2><p>假设有一个main的可执行文件(在main.exe)</p>
+    <content><![CDATA[<h1 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h1><p>为什么要学 Linux 命令？  </p>
+<p>这个问题值得一讨：</p>
+<p>在撰写本文时，Linux在台式机上的全球市场份额为2.68%，但超过90%的云基础设施和托管服务都在该操作系统中运行。仅出于这个原因，熟悉流行的Linux命令就至关重要。</p>
+<p>Linux 的核心重点从来都不是它的用户界面。它的设计初衷是让你通过命令行完全控制操作系统。这可能会让 Linux 初学者望而生畏–而成千上万的可用命令只会让这一切变得更加困难。</p>
+<h2 id="什么是Linux命令？"><a href="#什么是Linux命令？" class="headerlink" title="什么是Linux命令？"></a>什么是Linux命令？</h2><p>Linux命令是在命令行上运行的程序或实用程序。命令行是一个界面，它接受文本行并将其处理为计算机的指令。</p>
+<p>任何图形用户界面（GUI）都只是命令行程序的抽象。例如，当您通过单击“X”关闭窗口时，该操作后面会运行一个命令。</p>
+<h2 id="如何开始"><a href="#如何开始" class="headerlink" title="如何开始"></a>如何开始</h2><p>在开始使用最常用的Linux命令之前，请确保启动终端（terminal）。在大多数Linux发行版中，您可以使用 <code>Ctrl + Alt + T</code> 来执行此操作。如果这不起作用，请在应用程序面板中搜索 <code>terminal</code></p>
+<h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><h3 id="ls-–-列出目录内容"><a href="#ls-–-列出目录内容" class="headerlink" title="ls – 列出目录内容"></a>ls – 列出目录内容</h3><p> <code>ls</code> 可能是每个Linux用户在其终端中键入的第一个命令。它允许您列出您想要的目录的内容（默认情况下是当前目录），包括文件和其他嵌套目录。</p>
+<p>它有很多选择，所以最好使用 <code>--help</code> 来获得一些帮助。此标志返回所有可以与 <code>ls</code> 一起使用的flags参数。</p>
+<p>语法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">ls</span> [options] [directory]<br></code></pre></td></tr></table></figure>
+
+<p>最有用的 ls 选项包括</p>
+<ul>
+<li>-l : 以长格式显示结果，显示每个文件和目录的权限、所有权、大小和修改日期等额外详细信息。</li>
+<li>-a : 除非隐藏项目外，显示以.开头的隐藏文件和目录。</li>
+<li>-R : 递归列出所有子目录内容，无限递归到子文件夹。</li>
+<li>-S : 按文件大小排序，最大的优先。</li>
+<li>-t : 按时间戳排序，最新的排在前面。</li>
+</ul>
+<h3 id="cd-–-更改目录"><a href="#cd-–-更改目录" class="headerlink" title="cd – 更改目录"></a>cd – 更改目录</h3><p> <code>cd</code> 命令与 <code>ls</code> 都非常流行。它指的是“更改目录”，顾名思义，它会将您切换到您试图访问的目录。</p>
+<p>当你单独运行 <code>cd</code> 命令时，它会返回到主目录。您也可以通过特定路径进行更改。例如</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> /usr/local  <span class="hljs-comment"># 更改到 /usr/local 目录。</span><br><span class="hljs-built_in">cd</span> ..          <span class="hljs-comment"># 上移一级至父级目录。</span><br><span class="hljs-built_in">cd</span> ~/pictures  <span class="hljs-comment"># 切换到主目录中的 pictures 文件夹。</span><br></code></pre></td></tr></table></figure>
+
+<p>语法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> [directory]<br></code></pre></td></tr></table></figure>
+<p>例如，如果您在 <code>Documents</code> 目录中，并且试图访问其名为 <code>Videos</code> 的子文件夹之一，则可以通过键入以下内容来输入：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> Videos<br></code></pre></td></tr></table></figure>
+
+<p>您还可以提供文件夹的绝对路径：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> /home/wbolt/Documents/Videos<br></code></pre></td></tr></table></figure>
+
+<p>在使用 <code>cd</code> 命令时，有一些技巧可以为您节省大量时间：</p>
+<ol>
+<li><p>进入home文件夹</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span><br></code></pre></td></tr></table></figure>
+</li>
+<li><p>向上移动一个级别</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> ..<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>返回上一个目录</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> -<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="mkdir-–-创建新目录"><a href="#mkdir-–-创建新目录" class="headerlink" title="mkdir – 创建新目录"></a>mkdir – 创建新目录</h3><p>要在shell中创建文件夹，可以使用mkdir命令。只需指定新文件夹的名称，确保它不存在，然后就可以开始了。</p>
+<p>语法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">mkdir</span> [options] &lt;directory&gt;<br></code></pre></td></tr></table></figure>
+<p>这将在当前工作目录下创建一个名为 <code>newproject</code> 的目录。</p>
+<p>一些有用的 <code>mkdir</code> 选项：</p>
+<ul>
+<li>-p : 根据需要递归创建父目录。</li>
+<li>-v : 显示已创建目录的详细输出。<br>例如，要创建一个保存所有图像的目录，只需键入：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">mkdir</span> images/<br></code></pre></td></tr></table></figure>
+<p>要使用简单命令创建子目录，请使用parent（-p）标志：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">mkdir</span> -p movies/2004/<br></code></pre></td></tr></table></figure>
+
+<h3 id="cp-–-复制文件和目录"><a href="#cp-–-复制文件和目录" class="headerlink" title="cp – 复制文件和目录"></a>cp – 复制文件和目录</h3><p>直接在Linux终端上复制文件和文件夹非常容易，有时它可以取代传统的文件管理器。</p>
+<p>语法:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cp</span> [options] <span class="hljs-built_in">source</span> destination<br></code></pre></td></tr></table></figure>
+<p>一些有用的 cp 选项：</p>
+<ul>
+<li>-r – 以递归方式复制目录，向下复制到子目录，同时复制其内容。复制目录时必须使用。</li>
+<li>-i – 在覆盖目的地的任何现有文件前提示。它可以防止意外覆盖数据。</li>
+<li>-v – 在复制过程中显示每个文件的详细内容。有助于确认到底复制了什么。<br>要使用cp命令，只需将其与源文件和目标文件一起键入即可：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cp</span> file_to_copy.txt new_file.txt<br></code></pre></td></tr></table></figure>
+还可以使用递归标志复制整个目录：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cp</span> -r dir_to_copy/ new_copy_dir/<br></code></pre></td></tr></table></figure>
+<strong>请记住</strong>，在Linux中，文件夹以正斜杠 (&#x2F;)结尾。</li>
+</ul>
+<h2 id="进阶命令"><a href="#进阶命令" class="headerlink" title="进阶命令"></a>进阶命令</h2><h3 id="ldd-查看可执行文件的链接状态"><a href="#ldd-查看可执行文件的链接状态" class="headerlink" title="ldd 查看可执行文件的链接状态"></a>ldd 查看可执行文件的链接状态</h3><p>假设有一个 <code>main</code> 的可执行文件(在 <code>main.exe</code> )</p>
 <p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库 </p>
 ]]></content>
       <tags>

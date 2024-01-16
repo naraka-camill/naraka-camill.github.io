@@ -1,6 +1,6 @@
+https://naraka-camill.github.io/getting-started/hello-hexo/
 https://naraka-camill.github.io/note/linux-note/
 https://naraka-camill.github.io/getting-started/change-theme/
-https://naraka-camill.github.io/getting-started/hello-hexo/
 https://naraka-camill.github.io/
 https://naraka-camill.github.io/tags/Hexo/
 https://naraka-camill.github.io/tags/Fluid/
