@@ -490,9 +490,9 @@ sup > a::before,
   display: inline-block; /* 设置为行内块级元素 */
   margin-right: 10px; /* 可以根据需要调整间距 */
 }
-@media (max-width: 992px) {
+@media (max-width: 200px) {
   .weather-plugin {
-    display: none; /* 在屏幕宽度小于992px时隐藏 */
+    display: none; /* 在屏幕宽度小于200px时隐藏 */
   }
 }
 @-moz-keyframes animate {

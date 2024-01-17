@@ -18,26 +18,25 @@
   <meta name="author" content="Camill">
   <meta name="keywords" content="">
   
-    <meta name="description" content="快速搭建一个基于Hexo和Fluid的主题博客">
+    <meta name="description" content="Vercel 是一个云服务平台，支持静态网站（纯静态页面，没有接口数据交互）和动态网站的应用部署、预览和上线。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo框架快速上手">
-<meta property="og:url" content="https://camill.love/getting-started/hello-hexo/index.html">
+<meta property="og:title" content="vercel使用说明">
+<meta property="og:url" content="https://camill.love/getting-started/vercel/index.html">
 <meta property="og:site_name" content="Camill">
-<meta property="og:description" content="快速搭建一个基于Hexo和Fluid的主题博客">
+<meta property="og:description" content="Vercel 是一个云服务平台，支持静态网站（纯静态页面，没有接口数据交互）和动态网站的应用部署、预览和上线。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://camill.love/img/hexo.png">
-<meta property="article:published_time" content="2024-01-14T02:31:24.000Z">
+<meta property="og:image" content="https://s11.ax1x.com/2024/01/17/pFFxgu6.png">
+<meta property="article:published_time" content="2024-01-16T15:32:44.000Z">
 <meta property="article:modified_time" content="2024-01-17T13:42:25.499Z">
 <meta property="article:author" content="Camill">
-<meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="Fluid">
 <meta property="article:tag" content="部署">
+<meta property="article:tag" content="vercel">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://camill.love/img/hexo.png">
+<meta name="twitter:image" content="https://s11.ax1x.com/2024/01/17/pFFxgu6.png">
   
   
   
-  <title>Hexo框架快速上手 - Camill</title>
+  <title>vercel使用说明 - Camill</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -360,7 +359,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hexo框架快速上手"></span>
+            <span id="subtitle" data-typed-text="vercel使用说明"></span>
           
         </div>
 
@@ -371,8 +370,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-14 10:31" pubdate>
-          2024年1月14日 上午
+        <time datetime="2024-01-16 23:32" pubdate>
+          2024年1月16日 晚上
         </time>
       </span>
     
@@ -383,7 +382,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          268 字
+          1k 字
         
       </span>
     
@@ -394,7 +393,7 @@
         
         
         
-          5 分钟
+          18 分钟
         
       </span>
     
@@ -431,7 +430,7 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hexo框架快速上手</h1>
+            <h1 id="seo-header">vercel使用说明</h1>
             
               <p id="updated-time" class="note note-info" style="display: none">
                 
@@ -446,46 +445,40 @@
             
               <div class="markdown-body">
                 
-                <h1 id="Hexo框架使用说明"><a href="#Hexo框架使用说明" class="headerlink" title="Hexo框架使用说明"></a>Hexo框架使用说明</h1><h2 id="使用淘宝镜像源加速-NPM"><a href="#使用淘宝镜像源加速-NPM" class="headerlink" title="使用淘宝镜像源加速 NPM"></a>使用淘宝镜像源加速 NPM</h2><p><code>npm config set registry https://registry.npmmirror.com</code></p>
-<p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43940789/article/details/131449710">https://blog.csdn.net/qq_43940789/article/details/131449710</a></p>
-<h2 id="使用-npm-一键安装-Hexo-博客程序"><a href="#使用-npm-一键安装-Hexo-博客程序" class="headerlink" title="使用 npm 一键安装 Hexo 博客程序"></a>使用 npm 一键安装 Hexo 博客程序</h2><p><code>npm install -g hexo-cli</code></p>
-<p>参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/60578464">https://zhuanlan.zhihu.com/p/60578464</a></p>
-<h2 id="初始化并安装所需组件"><a href="#初始化并安装所需组件" class="headerlink" title="初始化并安装所需组件"></a>初始化并安装所需组件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init      <span class="hljs-comment"># 初始化</span><br>npm install    <span class="hljs-comment"># 安装组件</span><br></code></pre></td></tr></table></figure>
-<h2 id="完成后依次输入下面命令，启动本地服务器进行预览"><a href="#完成后依次输入下面命令，启动本地服务器进行预览" class="headerlink" title="完成后依次输入下面命令，启动本地服务器进行预览"></a>完成后依次输入下面命令，启动本地服务器进行预览</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g   <span class="hljs-comment"># 生成页面</span><br>hexo s   <span class="hljs-comment"># 启动预览</span><br></code></pre></td></tr></table></figure>
-<p>访问 <code>http://localhost:4000</code>，出现页面，本地博客安装成功！</p>
-<h2 id="部署-Hexo-到网站"><a href="#部署-Hexo-到网站" class="headerlink" title="部署 Hexo 到网站"></a>部署 Hexo 到网站</h2><p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qingmuzhang/article/details/119906728">https://blog.csdn.net/qingmuzhang/article/details/119906728</a></p>
-<p>安装 hexo-deployer-git：</p>
-<p><code>npm install hexo-deployer-git --save</code></p>
-<p><code>hexo d</code> 部署</p>
-<h2 id="需要安装的一些依赖"><a href="#需要安装的一些依赖" class="headerlink" title="需要安装的一些依赖"></a>需要安装的一些依赖</h2><h3 id="为文章添加目录-现弃用，有bug"><a href="#为文章添加目录-现弃用，有bug" class="headerlink" title="为文章添加目录(现弃用，有bug)"></a>为文章添加目录(现弃用，有bug)</h3><p>参考<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2065866">为文章添加目录</a></p>
-<ol>
-<li>安装插件</li>
-</ol>
-<p><code>npm install hexo-toc --save</code></p>
-<ol start="2">
-<li>配置博客根目录下的_config.yml文件</li>
-</ol>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">maxdepth:</span> <span class="hljs-number">3</span><br></code></pre></td></tr></table></figure>
-<ol start="4">
-<li>添加目录</li>
-</ol>
-<p>在需要展示目录的地方添加：</p>
-<p><code>&lt;!-- toc --&gt;</code></p>
-<h2 id="一键开发"><a href="#一键开发" class="headerlink" title="一键开发"></a>一键开发</h2><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></p>
-<h2 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h2><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
-<h2 id="以下是建站之后，Hexo的默认提供的快速使用"><a href="#以下是建站之后，Hexo的默认提供的快速使用" class="headerlink" title="以下是建站之后，Hexo的默认提供的快速使用"></a>以下是建站之后，Hexo的默认提供的快速使用</h2><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="vercel使用"><a href="#vercel使用" class="headerlink" title="vercel使用"></a>vercel使用</h1><p><code>Vercel</code> 是一个云服务平台，支持静态网站（纯静态页面，没有接口数据交互）和动态网站的应用部署、预览和上线。  </p>
+<p>如果你用过 GitHub Pages ，那么心里可能不会太陌生，但你也能通过 vercel 集成 GitHub 后，在 GitHub 项目进行代码推送，PR 合并自动部署的目的，且你不需要考虑服务器问题。</p>
+<p>与其说这是 vercel 可行性调研方案，不如说是 vercel 用法普及，因为 vercel 自身内置 CI CD，只要你将项目与 vercel 关联，你就能通过命令快速部署，这没什么难度。  </p>
+<p>接下来给大家讲解 vercel 优势、部署方式、能力边界以及接下来工作可能要思考的点。</p>
+<h2 id="为什么我要使用-Vercel"><a href="#为什么我要使用-Vercel" class="headerlink" title="为什么我要使用 Vercel"></a>为什么我要使用 <code>Vercel</code></h2><ul>
+<li>个人版永久免费，每个月 100G 带宽（别人访问你的项目所耗费的流量）个人项目部署完全够用，需要注意的是团队模式收费，所以要协作你只能付费。</li>
+<li>内置 CI CD，你可以理解成一个黑盒，项目丢进去，只需要将项目导入 vercel ，一句命令自动部署。</li>
+<li>因为内置构建流程，支持代码推送、PR 自动触发构建，不同分支唯一地址，方便测试。</li>
+<li>支持本地、测试、生产三种环境部署，仅仅是命令区别，上手成本极低。</li>
+<li>丰富的集成能力，项目部署自动监控，端到端自动化测试等等，当然这些并并属于 vercel 自身的能力，但它可以为你提供集成入口，让这些成为你自动部署中自动进行的一步，比如构建生产后自动完成性能指标输出，自动化测试，以及后续项目监控等等。</li>
+</ul>
+<h2 id="如何部署"><a href="#如何部署" class="headerlink" title="如何部署"></a>如何部署</h2><h2 id="导入Github-源码"><a href="#导入Github-源码" class="headerlink" title="导入Github 源码"></a>导入Github 源码</h2><blockquote>
+<p>注意Github源码是指生成 <code>hexo g</code> 之前的那个源码，而不是 <code>hexo d</code> 之后，使用 <code>hexo d</code> 而 <code>push</code> 的编译后的 <code>html</code> 静态文件。</p>
+</blockquote>
+<p>在 dashboard 点击 Add New 按钮选择 Project，这时会跳转到导入项目界面，选择你的 GitHub 账号（如果之前没绑定这里也可以绑定 GitHub 账号），然后点击导入按钮，这是会跳转到项目设置。<br><img src="https://s11.ax1x.com/2024/01/17/pFFq7jO.png" srcset="/img/loading.gif" lazyload></p>
+<p>选择仓库，一般你要设置这个仓库为私有的</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLiDg.png" srcset="/img/loading.gif" lazyload></p>
+<p>接下来就是取名，选择框架</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLV5n.png" srcset="/img/loading.gif" lazyload></p>
+<p>然后其他默认即可，直接点击 <code>Deploy</code> 部署</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLeCq.png" srcset="/img/loading.gif" lazyload></p>
+<p>坐等构建就能看到 <code>vercel</code> 为我们部署后独一无二的预览地址了。</p>
+<h2 id="如何更新部署"><a href="#如何更新部署" class="headerlink" title="如何更新部署"></a>如何更新部署</h2><p>由于实际开发，我们本地肯定也会克隆 GitHub 项目，那么在后续只要我们修改项目代码，push 到仓库，GitHub 感知到代码变动，vercel 就会自动再次部署。</p>
+<p>你可能会想，我 GitHub 项目拷贝下来会有主分支，以及我的开发分支，vercel 虽然能自动部署，它怎么知道我要部署到什么环境，事实上 vercel 也已经做了提前预设，假设你的代码变动发生在 main 或者 master 分支，那么 vercel 就会自动构建部署生产环境，除此之外的分支，vercel 都会更新预览（测试）环境。</p>
+<p>关于 GitHub 主分支，你可以在 GitHub 进行设置，这个 vercel 无需感知，反正是主分支变动它会对应帮你部署就完事了。</p>
+<p>另外，让远程仓库代码变动有两种方式，第一种是直接本地推送代码，第二种就是提 PR 后合并到目标分支触发变动。</p>
+<h2 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h2><p>本地部署就很简单了，按照我之前写的<a href="../hello-hexo"> Hexo快速上手指南 </a>提供的说明和参考链接就行</p>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>这里选择<a target="_blank" rel="noopener" href="https://wanwang.aliyun.com/domain/tld"> 阿里云域名 </a>，选择你喜欢的后缀，搭建你属于自己的网站吧</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLgRP.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLfsS.png" srcset="/img/loading.gif" lazyload></p>
+<p>通过阅读<a target="_blank" rel="noopener" href="https://vercel.com/docs/getting-started-with-vercel/domains"> vercel官方文档 </a>的域名使用手册来自定义你的域名就可以了！</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a target="_blank" rel="noopener" href="https://vercel.com/"> Vercel </a></p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/641263373">快速上手 vercel，手把手教你白嫖部署上线你的个人项目</a></p>
+<p><a target="_blank" rel="noopener" href="https://vercel.com/docs/getting-started-with-vercel/domains"> vercel官方文档 </a></p>
 
                 
               </div>
@@ -519,11 +512,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Hexo/" class="print-no-link">#Hexo</a>
-      
-        <a href="/tags/Fluid/" class="print-no-link">#Fluid</a>
-      
         <a href="/tags/%E9%83%A8%E7%BD%B2/" class="print-no-link">#部署</a>
+      
+        <a href="/tags/vercel/" class="print-no-link">#vercel</a>
       
     </div>
   
@@ -535,8 +526,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hexo框架快速上手</div>
-      <div>https://camill.love/getting-started/hello-hexo/</div>
+      <div>vercel使用说明</div>
+      <div>https://camill.love/getting-started/vercel/</div>
     </div>
     <div class="license-meta">
       
@@ -548,7 +539,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年1月14日</div>
+          <div>2024年1月16日</div>
         </div>
       
       
@@ -585,15 +576,21 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/getting-started/change-theme/" title="前端网页修改实现记录">
+                      <a href="/home/talk-you/" title="建站初衷">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">前端网页修改实现记录</span>
+                        <span class="hidden-mobile">建站初衷</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/note/linux-note/" title="Linux 常用命令">
+                        <span class="hidden-mobile">Linux 常用命令</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>

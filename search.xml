@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>魔改实现记录</title>
+    <title>前端网页修改实现记录</title>
     <url>/getting-started/change-theme/</url>
     <content><![CDATA[<h1 id="魔改实现记录"><a href="#魔改实现记录" class="headerlink" title="魔改实现记录"></a>魔改实现记录</h1><h2 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h2><p><a href="https://asteri5m.gitee.io/archives/Fluid%E9%AD%94%E6%94%B9%E7%AC%94%E8%AE%B0.html">Butterfly博客魔改记录</a><br><a href="https://emoryhuang.cn/blog/1729600336.html">添加样式教程1</a><br><a href="https://cnhuazhu.gitee.io/2021/03/28/Hexo%E9%AD%94%E6%94%B9/Hexo%E9%AD%94%E6%94%B9%E8%AE%B0%E5%BD%95/">添加样式教程2</a><br><a href="https://blog.kevinchu.top/2023/07/17/hexo-theme-fluid-modify/#5-%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%A0%87%E9%A2%98%E6%B7%BB%E5%8A%A0%E9%9C%93%E8%99%B9%E7%81%AF%E7%89%B9%E6%95%88">基于Fluid主题的Hexo博客修改指南</a><br><a href="https://qingshaner.com/">hexo fluid魔改记录</a></p>
-<h2 id="Hello-World-C"><a href="#Hello-World-C" class="headerlink" title="Hello World C++"></a>Hello World C++</h2><figure class="highlight c++"><table><tr><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;Hello World!&quot;</span> &lt;&lt; std::endl;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="以下是修改后代码块的样式"><a href="#以下是修改后代码块的样式" class="headerlink" title="以下是修改后代码块的样式"></a>以下是修改后代码块的样式</h2><h3 id="Hello-World-C"><a href="#Hello-World-C" class="headerlink" title="Hello World C++"></a>Hello World C++</h3><figure class="highlight c++"><table><tr><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;Hello World!&quot;</span> &lt;&lt; std::endl;<br>&#125;<br></code></pre></td></tr></table></figure>
 
-<h2 id="Hello-World-Python"><a href="#Hello-World-Python" class="headerlink" title="Hello World Python"></a>Hello World Python</h2><figure class="highlight python"><table><tr><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello World!&quot;</span>)<br></code></pre></td></tr></table></figure>
+<h3 id="Hello-World-Python"><a href="#Hello-World-Python" class="headerlink" title="Hello World Python"></a>Hello World Python</h3><figure class="highlight python"><table><tr><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello World!&quot;</span>)<br></code></pre></td></tr></table></figure>
 
-<h2 id="Hello-World-Java"><a href="#Hello-World-Java" class="headerlink" title="Hello World Java"></a>Hello World Java</h2><figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="Hello-World-Java"><a href="#Hello-World-Java" class="headerlink" title="Hello World Java"></a>Hello World Java</h3><figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
-<h2 id="Hello-World-Go"><a href="#Hello-World-Go" class="headerlink" title="Hello World Go"></a>Hello World Go</h2><figure class="highlight go"><table><tr><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">package</span> main<br><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;fmt&quot;</span><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span> &#123;<br>    fmt.Println(<span class="hljs-string">&quot;Hello World!&quot;</span>)<br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="Hello-World-Go"><a href="#Hello-World-Go" class="headerlink" title="Hello World Go"></a>Hello World Go</h3><figure class="highlight go"><table><tr><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">package</span> main<br><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;fmt&quot;</span><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span> &#123;<br>    fmt.Println(<span class="hljs-string">&quot;Hello World!&quot;</span>)<br>&#125;<br></code></pre></td></tr></table></figure>
 
-<h2 id="Hello-World-JavaScript"><a href="#Hello-World-JavaScript" class="headerlink" title="Hello World JavaScript"></a>Hello World JavaScript</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><code class="hljs javascript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br></code></pre></td></tr></table></figure>
+<h3 id="Hello-World-JavaScript"><a href="#Hello-World-JavaScript" class="headerlink" title="Hello World JavaScript"></a>Hello World JavaScript</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><code class="hljs javascript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br></code></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>快速上手</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
         <tag>Fluid</tag>
+        <tag>部署</tag>
       </tags>
   </entry>
   <entry>
@@ -63,9 +67,83 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>快速上手</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
         <tag>Fluid</tag>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vercel使用说明</title>
+    <url>/getting-started/vercel/</url>
+    <content><![CDATA[<h1 id="vercel使用"><a href="#vercel使用" class="headerlink" title="vercel使用"></a>vercel使用</h1><p><code>Vercel</code> 是一个云服务平台，支持静态网站（纯静态页面，没有接口数据交互）和动态网站的应用部署、预览和上线。  </p>
+<p>如果你用过 GitHub Pages ，那么心里可能不会太陌生，但你也能通过 vercel 集成 GitHub 后，在 GitHub 项目进行代码推送，PR 合并自动部署的目的，且你不需要考虑服务器问题。</p>
+<p>与其说这是 vercel 可行性调研方案，不如说是 vercel 用法普及，因为 vercel 自身内置 CI CD，只要你将项目与 vercel 关联，你就能通过命令快速部署，这没什么难度。  </p>
+<p>接下来给大家讲解 vercel 优势、部署方式、能力边界以及接下来工作可能要思考的点。</p>
+<h2 id="为什么我要使用-Vercel"><a href="#为什么我要使用-Vercel" class="headerlink" title="为什么我要使用 Vercel"></a>为什么我要使用 <code>Vercel</code></h2><ul>
+<li>个人版永久免费，每个月 100G 带宽（别人访问你的项目所耗费的流量）个人项目部署完全够用，需要注意的是团队模式收费，所以要协作你只能付费。</li>
+<li>内置 CI CD，你可以理解成一个黑盒，项目丢进去，只需要将项目导入 vercel ，一句命令自动部署。</li>
+<li>因为内置构建流程，支持代码推送、PR 自动触发构建，不同分支唯一地址，方便测试。</li>
+<li>支持本地、测试、生产三种环境部署，仅仅是命令区别，上手成本极低。</li>
+<li>丰富的集成能力，项目部署自动监控，端到端自动化测试等等，当然这些并并属于 vercel 自身的能力，但它可以为你提供集成入口，让这些成为你自动部署中自动进行的一步，比如构建生产后自动完成性能指标输出，自动化测试，以及后续项目监控等等。</li>
+</ul>
+<h2 id="如何部署"><a href="#如何部署" class="headerlink" title="如何部署"></a>如何部署</h2><h2 id="导入Github-源码"><a href="#导入Github-源码" class="headerlink" title="导入Github 源码"></a>导入Github 源码</h2><blockquote>
+<p>注意Github源码是指生成 <code>hexo g</code> 之前的那个源码，而不是 <code>hexo d</code> 之后，使用 <code>hexo d</code> 而 <code>push</code> 的编译后的 <code>html</code> 静态文件。</p>
+</blockquote>
+<p>在 dashboard 点击 Add New 按钮选择 Project，这时会跳转到导入项目界面，选择你的 GitHub 账号（如果之前没绑定这里也可以绑定 GitHub 账号），然后点击导入按钮，这是会跳转到项目设置。<br><img src="https://s11.ax1x.com/2024/01/17/pFFq7jO.png"></p>
+<p>选择仓库，一般你要设置这个仓库为私有的</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLiDg.png"></p>
+<p>接下来就是取名，选择框架</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLV5n.png"></p>
+<p>然后其他默认即可，直接点击 <code>Deploy</code> 部署</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLeCq.png"></p>
+<p>坐等构建就能看到 <code>vercel</code> 为我们部署后独一无二的预览地址了。</p>
+<h2 id="如何更新部署"><a href="#如何更新部署" class="headerlink" title="如何更新部署"></a>如何更新部署</h2><p>由于实际开发，我们本地肯定也会克隆 GitHub 项目，那么在后续只要我们修改项目代码，push 到仓库，GitHub 感知到代码变动，vercel 就会自动再次部署。</p>
+<p>你可能会想，我 GitHub 项目拷贝下来会有主分支，以及我的开发分支，vercel 虽然能自动部署，它怎么知道我要部署到什么环境，事实上 vercel 也已经做了提前预设，假设你的代码变动发生在 main 或者 master 分支，那么 vercel 就会自动构建部署生产环境，除此之外的分支，vercel 都会更新预览（测试）环境。</p>
+<p>关于 GitHub 主分支，你可以在 GitHub 进行设置，这个 vercel 无需感知，反正是主分支变动它会对应帮你部署就完事了。</p>
+<p>另外，让远程仓库代码变动有两种方式，第一种是直接本地推送代码，第二种就是提 PR 后合并到目标分支触发变动。</p>
+<h2 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h2><p>本地部署就很简单了，按照我之前写的<a href="../hello-hexo"> Hexo快速上手指南 </a>提供的说明和参考链接就行</p>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>这里选择<a href="https://wanwang.aliyun.com/domain/tld"> 阿里云域名 </a>，选择你喜欢的后缀，搭建你属于自己的网站吧</p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLgRP.png"></p>
+<p><img src="https://s11.ax1x.com/2024/01/17/pFFLfsS.png"></p>
+<p>通过阅读<a href="https://vercel.com/docs/getting-started-with-vercel/domains"> vercel官方文档 </a>的域名使用手册来自定义你的域名就可以了！</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://vercel.com/"> Vercel </a></p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://zhuanlan.zhihu.com/p/641263373">快速上手 vercel，手把手教你白嫖部署上线你的个人项目</a></p>
+<p><a href="https://vercel.com/docs/getting-started-with-vercel/domains"> vercel官方文档 </a></p>
+]]></content>
+      <categories>
+        <category>快速上手</category>
+      </categories>
+      <tags>
+        <tag>部署</tag>
+        <tag>vercel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站初衷</title>
+    <url>/home/talk-you/</url>
+    <content><![CDATA[<h1 id="建站初衷"><a href="#建站初衷" class="headerlink" title="建站初衷"></a>建站初衷</h1><p>搭建这么一个博客有何作用？</p>
+<p>只是为了在像宇宙般浩瀚的互联网上留下一点属于自己的足迹？</p>
+<p>也许不会有多少人进入到这个博客，也许这个博客不会传播多少有用的知识。</p>
+<p>但是我还是想在这片浩瀚之地，划出属于自己的一块乌托邦之地。</p>
+<p>写完一篇文章，部署后再自己反复观看，我觉得这是一种很愉悦的事情。</p>
+<p>在不知不觉中，你就会写下很多篇博文，可能只是记录生活，亦或者是教程。</p>
+<p>但这些都是美好的回忆，在五年十年后，再回过头来看这些自己曾经留下的足迹。</p>
+<p>这也是一件美好的事情。</p>
+<p>希望屏幕前的你，</p>
+<p>能从这个地方，</p>
+<p>收获到什么吧！</p>
+]]></content>
+      <categories>
+        <category>关于本站</category>
+      </categories>
+      <tags>
+        <tag>Camill</tag>
+        <tag>博客</tag>
+        <tag>说明</tag>
       </tags>
   </entry>
   <entry>
@@ -141,6 +219,9 @@
 <h2 id="进阶命令"><a href="#进阶命令" class="headerlink" title="进阶命令"></a>进阶命令</h2><h3 id="ldd-查看可执行文件的链接状态"><a href="#ldd-查看可执行文件的链接状态" class="headerlink" title="ldd 查看可执行文件的链接状态"></a>ldd 查看可执行文件的链接状态</h3><p>假设有一个 <code>main</code> 的可执行文件(在 <code>main.exe</code> )</p>
 <p>使用 <code>ldd main</code> 可以查看该 <code>main</code> 可执行文件所链接的动态库 </p>
 ]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
       <tags>
         <tag>Linux</tag>
         <tag>bash</tag>
